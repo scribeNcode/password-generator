@@ -1,8 +1,14 @@
 body {
   background-color: #1f2937;
+  padding: 0;
 }
 
-h1 {
+.page-wrapper {
+  width: 90%;
+  margin: 130px auto;
+}
+
+#white-text {
   color: #ffffff;
 }
 
@@ -12,6 +18,7 @@ h1 {
 
 .hero-text {
   color: #bebfc4;
+  margin-bottom: 50px;
 }
 
 button {
@@ -20,23 +27,25 @@ button {
   padding: 10px 15px;
   border: 0;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 hr {
   border: 1px solid #2f3e53;
+  margin-bottom: 30px;
 }
 
-.password-div-wrapper{
-    display: flex;
-    flex-direction: row;
-    
+.password-div-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .password-div {
-  width: 150px;
-  height: 30px;
+  width: 170px;
+  height: 35px;
   border: 0;
   border-radius: 5px;
   /* background-color: #273549; */
-  background-color: white;
+  background-color: #273549;
 }
