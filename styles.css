@@ -1,0 +1,42 @@
+body {
+  background-color: #1f2937;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+#green-text {
+  color: #67df87;
+}
+
+.hero-text {
+  color: #bebfc4;
+}
+
+button {
+  background: #53b982;
+  color: #f0fbf7;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+}
+
+hr {
+  border: 1px solid #2f3e53;
+}
+
+.password-div-wrapper{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.password-div {
+  width: 150px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  /* background-color: #273549; */
+  background-color: white;
+}
